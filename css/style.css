@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* -------------------- MENU ---------------------*/
+
+
+.menu{
+  /* background-color: grey; */
+        padding:50px;
+        text-align: center;
+        font-size: 175%;
+        width: 100%;
+        height:150px;
+    }
+
+
+
+    /* --------------- COMIDAS--------------------*/
+
+
+    /* Eu havia feito uma <div> pra agrupar todas as sections. Num primeiro momento achei que seria necessário pra fazer o float, mas não foi. Aí apaguei e o float e o layout responsivel funcionou da mesma maneira
+    
+    pra conseguir fazer o float certinho, precisei colocar na classe em comum entre os elementos e ajustar somente a direção (esquerda/direita)*/
+
+
+    .quadrado {
+        background-color: lightcyan;
+        width:30%;
+        height: 160px;                
+        border:1px solid black;   
+        float: left;                
+    }
+
+   .um {
+        position: relative;
+        left:0;
+   }
+
+   .dois {   
+        position: relative;
+        left:5%;
+   }
+
+   .três {   
+        position:relative;
+        left:10%;    
+   }
+
+    /*------------------- TEXTOS -------------------*/
+
+    .título{       
+        border-left:1px solid black;
+        border-bottom:1px solid black;
+        width: 150px;
+        text-align: center;  
+        font-size:125%;
+        float:right;                           
+    }
+
+    .primeiro{
+        background-color: olivedrab;
+    }
+
+    .segundo {
+        background-color:lightseagreen;
+    }
+    
+    .terceiro{
+        background-color: cornflowerblue;
+    }
+
+    p{
+        margin-top:20px;
+        padding: 15px;
+        text-align: left;
+    }

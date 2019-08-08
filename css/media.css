@@ -1,0 +1,66 @@
+@media (min-width:992px){
+
+    .um {
+        width:30%;
+   }
+
+   .dois {
+        width:30%;
+    }
+
+    .três {
+        width:30%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+   .um {
+        width:45%;               
+    }
+
+    .dois {
+        width:45%;
+        left:10%;
+    }
+
+    .três {
+        width:100%;
+        margin-top:45px;
+        left:0;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .um {
+        width:100%;
+    }
+
+    .dois {
+        width:100%;
+        margin-top:45px;      
+        left:0%;
+    }
+
+    .três {
+        width:100%;
+        margin-top:45px;
+        left:0%;
+    }
+
+}
+
+/* 
+
+conforme vai ajustando o tamanho da tela, é preciso ajustar o tamanhos dos elementos em relação a tela e o position se não ele vai desconfigurar o layout. Por isso no layout médio e pequeno ajustei o 'width' e o 'left'. Não foi preciso adicionar aqui o position:relative;, foi só ajustar mesmo a porcentagem.
+
+Também lembrar de ajustar o margin-top,porque quando o quadro vai pra baixo quando diminui a tela, se não tiver o ajuste, ele cola no de cima. 
+
+Quanto maior a tela, menor os elementos, e quanto maior maior até chegar o 100%. 
+
+Os cálculos são bem proprocionais, por exemplo no layour médio, os elementos ficam como tamanho de 45%, que somam 90%. A diferença, 10%, é ajustada no 'left'.
+
+*/
