@@ -30,7 +30,7 @@
     pra conseguir fazer o float certinho, precisei colocar na classe em comum entre os elementos e ajustar somente a direção (esquerda/direita)*/
 
     .fundo {
-        background-color: brown;
+    /*    background-color: brown; */
         width: 100%;
         height: 800px;
         padding: 20px;
