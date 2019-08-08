@@ -25,10 +25,16 @@
     /* --------------- COMIDAS--------------------*/
 
 
-    /* Eu havia feito uma <div> pra agrupar todas as sections. Num primeiro momento achei que seria necessário pra fazer o float, mas não foi. Aí apaguei e o float e o layout responsivel funcionou da mesma maneira
+    /*  PRECISA da div pra conter as sections porque se não não dá pra ajustar elas lá dentro com o padding. 
     
     pra conseguir fazer o float certinho, precisei colocar na classe em comum entre os elementos e ajustar somente a direção (esquerda/direita)*/
 
+    .fundo {
+        background-color: brown;
+        width: 100%;
+        height: 800px;
+        padding: 20px;
+    }
 
     .quadrado {
         background-color: lightcyan;
